@@ -1,0 +1,109 @@
+body {
+    background: url("https://images.unsplash.com/45/QDSMoAMTYaZoXpcwBjsL__DSC0104-1.jpg?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80")
+    no-repeat center center fixed;
+    background-size: cover;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.4rem;
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 30px 0;
+    
+}
+
+#title {
+    margin: 0 0 10px 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(80, 81, 200, 0.5); /* Black background with opacity */
+    z-index: -1; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+  }
+
+main {
+    display: flex;
+    background: rgba(40, 40, 72, 0.9);
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 40px;
+    width: 100%;
+    max-width: 650px;
+}
+
+form {  
+    width: 100%;
+}
+
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+input, select {
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    background: white;
+}
+
+.radio-wrap, .checkbox-wrap {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.radio-wrap label {
+    /* Align radio buttons with label */
+    margin-top: 3px;
+}
+
+.checkbox-wrap label, .radio-wrap label  {
+    margin-left: 8px;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: 1.1em;
+}
+
+.input-title {
+    margin: 10px 0;
+}
+
+#dropdown, #dropdown-fav-feature {
+    height: 35px;
+}
+
+textarea {
+    resize: none;
+    font-size: 0.7em;
+}
+
